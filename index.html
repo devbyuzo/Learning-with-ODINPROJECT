@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- LEFT SIDE -->
+        <div class="form-section">
+
+            <header>
+                <h1 class="logo">Wanderer</h1>
+
+                <nav>
+                    <a href="#">HOME</a>
+                    <a href="#">ABOUT US</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#" class="active">SIGN UP</a>
+                </nav>
+            </header>
+
+        <div class="form-box">
+            <h2>Sign up</h2>
+
+            <form>
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Patience Ozokwor" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="hello@reallygreatsite.com" required>
+
+                <div class="password-row">
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="********" minlength="8" required>
+                    </div>
+
+                    <div>
+                        <label for="confirm">Confirm Password</label>
+                        <input type="password" id="confirm" placeholder="********" minlength="8" required>
+                    </div>
+                </div>
+
+                <button type="submit">Create Account</button>
+
+                <p class="login-text">or <a href="#">Log in</a></p>
+
+            </form>
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT SIDE IMAGE -->
+    <div class="image-section">
+        <p class="credit">
+              Photo by
+              <a href="https://unsplash.com/@haliewestphoto"
+                 target="_blank" title="Haile West's Profile on Unsplash"
+                 rel="noopener noreferrer" class="link">Halie West</a>
+              , via
+              <a href="https://unsplash.com/" target="_blank"
+                 title="Unsplash Official Website" rel="noopener noreferrer"
+                 class="link">Unsplash</a>
+          </p>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
